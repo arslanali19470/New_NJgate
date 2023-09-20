@@ -58,6 +58,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+ 
 }
 a {
   color: #767d49;
@@ -152,7 +153,7 @@ h2 {
   _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/theme/headerbg.png?166743', sizingMethod='crop');
 }
 .wsite-header {
-  
+  width: 895px;
   height: 253px;
   background: url(theme/default_header.jpg?166743) no-repeat;
 }
