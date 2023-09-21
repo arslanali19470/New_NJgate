@@ -51,7 +51,7 @@ a img {
   clear: both;
 }
 body {
-  background: #f3e9c8 url(theme/bodybg.jpg?166743) top center no-repeat;
+  background: #f3e9c8 url(theme/bodybg.jpg?166743) top center no-repeat !important;
   font-family: Georgia, arial, sans-serif;
   font-size: 12px;
   color: #666666;
@@ -124,6 +124,7 @@ h2 {
   text-align: center;
   margin: 0px 0px 0px 55px;
   padding: 12px 0px 0px 0px;
+  margin-top: 5px;
 }
 #navigation li {
   display: inline;
@@ -137,6 +138,11 @@ h2 {
   z-index: 2;
   padding: 0px 10px 0px 8px;
   font-size: 16px;
+  outline : none;
+}
+a{
+  /* border-bottom: none !important; */
+  text-decoration: none !important;
 }
 #navigation ul li a:hover,
 #navigation ul li#active a {
